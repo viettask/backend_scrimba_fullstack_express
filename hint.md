@@ -9,3 +9,9 @@ database.run(
      )
 
 If there are errors, you can rollback. Use the exec() method to do this and pass in the string 'ROLLBACK'.
+
+2. The key word here is DISTINCT!
+
+The map() method will return a new array. You can use it to extract what you need from the array of objects.
+
+res.json() can be used to serve the genres.

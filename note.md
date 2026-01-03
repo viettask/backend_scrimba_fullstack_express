@@ -89,3 +89,9 @@ Display a selection of products based on user requirements.
                 SELECT * FROM products WHERE status=?
                 `,['in-stock']
             )
+
+9. getProducts() needs to be able to 
+    serve all products
+    Serve the products in a provided genre
+    serve products whose title, artist, or genre contain a provided search query.
+    
