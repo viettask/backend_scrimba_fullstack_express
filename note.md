@@ -94,4 +94,17 @@ Display a selection of products based on user requirements.
     serve all products
     Serve the products in a provided genre
     serve products whose title, artist, or genre contain a provided search query.
+
+10. We will be studing
+    express.session middleware
+    validation
+    hashing and bcrypt
+    protecting routes
+
+11. The sign up steps
+    1. Create a route for the api/auth/register endpoint
+    2. Validate & sanitise the incoming user data
+    3. Add new user data to the users table
+    4. Think about the password security in the database
+    5. Create a session for the user
     
